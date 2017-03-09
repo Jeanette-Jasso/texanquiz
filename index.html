@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quiz | How Texan are you...</title>
+<link href ="bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css?family=Over+the+Rainbow');
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+
+body {
+font: handlee;
+font-size: 15px;
+background: url("texas.jpg");
+opacity: 0.85;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+margin-top: 20px;
+}
+
+P{
+font-weight: bold;
+}
+
+h4{
+font: handlee;
+color: #b30000;
+}
+
+#main {
+width: 55%;
+border: 2px red;
+margin: auto;
+padding: 10px;
+background-color: white;
+border-radius: 10px 60px;
+}
+
+#header {
+margin-top: 0 px;
+margin-bottom: 10 px;
+border-bottom: 1px dashed #b30000;
+padding: 0px;
+height: auto;
+font-family: handlee; 
+font-size: 50px ; 
+color: #b30000;
+}
+
+#footer {
+font-size: 18px;
+text-align: center;
+color: white;
+}
+
+a:link {color: darkred;}
+a:visited {color: red;}
+a:hover {color: lightblue;}
+a:active {color: blue;}
+
+.container {
+	width: 90%;
+}
+
+div {
+padding: 4px;
+}
+
+@media screen and (max-width: 410px)
+#main {
+width: 80%}
+
+
+</style> <!-- end style -->
+</head> <!-- end head -->
+<body> <!-- open body -->
+
+<div id="main"> <!-- main div -->
+<div id="header"><center><img src="tx.png" width="28%"><p><strong>How Texan are you?</strong></p></center></div><!-- header div -->
+<form  id="form1"> <!-- form -->
+
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<p>Can you think of something that cannot be deep fried?</p>
+<input type="radio" name="fried" value="10" required /> Nope, you can deep fry everything! <br>
+<input type="radio" name="fried" value="0" required /> Yes, all veggies!<br>
+<input type="radio" name="fried" value="0" required /> Food should never be fried! <br><br></div>
+
+<div class="col-md-6">
+<p>Who is the statue at the State Fair?</p>
+<input type="radio" name="fair" value="0" required /> Giant Tex<br>
+<input type="radio" name="fair" value="10" required /> Big Tex<br>
+<input type="radio" name="fair" value="0" required /> Texas Willie<br><br></div>
+</div>
+
+<div class="row">
+<div class="col-md-6">
+<p>What Texas Song involves four claps?</p>
+<input type="radio" name="song" value="10" required/> "Deep in the Heart of Texas"<br>
+<input type="radio" name="song" value="0" /> "All my Ex's live in Texas"<br>
+<input type="radio" name="song" value="0" /> "God Blessed Texas"<br><br></div>
+
+<div class="col-md-6">
+<p>You find yourself in front of a field of bluebonnets and you: </p>
+<input type="radio" name="blue" value="0" required /> Pick them out of the ground.<br>
+<input type="radio" name="blue" value="10" required/> Stop and take a photo or a selfie.<br>
+<input type="radio" name="blue" value="0" required /> Just pass by them.<br><br></div>
+</div>
+	
+<div class="row">
+<div class="col-md-6">
+<p> When it comes to boots you have:</p>
+<input type="radio" name="boots" value="0" required /> Not a single pair.<br>
+<input type="radio" name="boots" value="10" required /> A pair for every occasion.<br>
+<input type="radio" name="boots" value="0" required /> Just one pair.<br><br></div>
+
+<div class="col-md-6">
+<p> Where is the two-story Whataburger?</p>
+<input type="radio" name="whataburger" value="10" required/> Corpus Christi, Texas<br>
+<input type="radio" name="whataburger" value="0" required /> Dallas, Texas <br>
+<input type="radio" name="whataburger" value="0" required /> Brownsville, Texas<br><br></div>
+</div>
+
+<div class="row">
+<div class="col-md-6">
+<p> When it comes to breakfast, your go-to is:</p>
+<input type="radio" name="breakfast" value="0" required/> Fruit smoothies.<br>
+<input type="radio" name="breakfast" value="10" required /> Breakfast tacos.<br>
+<input type="radio" name="breakfast" value="0" required /> I do not eat breakfast.<br><br></div>
+
+<div class="col-md-6">
+<p> Which one is correct?</p>
+<input type="radio" name="accent" value="0" required/> You all.<br>
+<input type="radio" name="accent" value="10" required/> Y'all.<br>
+<input type="radio" name="accent" value="0" required /> You guys.<br><br></div>
+</div>
+
+<div class="row">
+<div class="col-md-6">
+<p> Finish this sentence: The best tea is, ______.</p>
+<input type="radio" name="tea" value="0" required/> Iced, with no sugar.<br>
+<input type="radio" name="tea" value="10" required /> Iced, with sugar.<br>
+<input type="radio" name="tea" value="0" required /> No tea.<br><br></div>
+
+<div class="col-md-6">
+<p>Which is a Texan must have appetizer?</p>
+<input type="radio" name="appetizer" value="10"required /> Chips & salsa<br />
+<input type="radio" name="appetizer" value="0" required /> Frito pie<br />
+<input type="radio" name="appetizer" value="0" required /> Fried ravioli<br />
+</div>
+
+<div class="row">
+<div class="col-md-6">
+<input type="submit" value="Submit">
+<input type="reset" value="Retake" class="button"><br/>
+</div>
+</div>
+</form> <!-- end form -->
+</div>
+</div>
+
+<script>
+
+document.getElementById("form1").onsubmit=function() {
+	fried = parseInt(document.querySelector('input[name = "fried"]:checked').value);
+	
+	fair = parseInt(document.querySelector('input[name = "fair"]:checked').value);
+	
+	song = parseInt(document.querySelector('input[name = "song"]:checked').value);
+	
+	blue = parseInt(document.querySelector('input[name = "blue"]:checked').value);
+	
+	boots = parseInt(document.querySelector('input[name = "boots"]:checked').value);
+	
+	whataburger = parseInt(document.querySelector('input[name = "whataburger"]:checked').value);
+	
+	breakfast = parseInt(document.querySelector('input[name = "breakfast"]:checked').value);
+	
+	accent = parseInt(document.querySelector('input[name = "accent"]:checked').value);
+	
+	tea = parseInt(document.querySelector('input[name = "tea"]:checked').value);
+	
+	appetizer = parseInt(document.querySelector('input[name = "appetizer"]:checked').value);
+
+
+result = fried + fair + song + blue + boots + whataburger + breakfast + accent + tea + appetizer;	   
+
+	//document.getElementById("grade").innerHTML = result;
+   
+   
+if (result == 0) {result2 = "DO YOU EVEN LIVE IN TEXAS?<br /><img src='0.png' width='30%'/><audio src='fail.mp4' autoplay></audio>"};
+
+if (result == 10) {result2 = "YOU ARE 10% TEXAN!<br /><img src='10.png' width='30%' /><audio src='fail.mp4' autoplay></audio>"};
+
+if (result == 20) {result2 = "YOU ARE 20% TEXAN!<br /><img src='20.png' width='30%' /><audio src='fail.mp4' autoplay></audio>"};
+
+if (result == 30) {result2 = "YOU ARE 30% TEXAN!<br /><img src='30.png' width='30%' /><audio src='fail.mp4' autoplay></audio>"};
+
+if (result == 40) {result2 = "YOU ARE 40% TEXAN!<br /><img src='40.png' width='30%' /><audio src='fail.mp4' autoplay></audio>"};
+
+if (result == 50) {result2 = "YOU ARE 50% TEXAN!<br /><img src='50.png' width='30%' /><audio src='yee.mp4' autoplay></audio>"};
+
+if (result == 60) {result2 = "YOU ARE 60% TEXAN!<br /><img src='60.png' width='30%' /><audio src='yee.mp4' autoplay></audio>"};
+
+if (result == 70) {result2 = "YOU ARE 70% TEXAN!<br /><img src='70.png' width='30%' /><audio src='yee.mp4' autoplay></audio>"};
+
+if (result == 80) {result2 = "YOU ARE 80% TEXAN!<br /><img src='80.png' width='30%' /><audio src='yee.mp4' autoplay></audio>"};
+
+if (result == 90) {result2 = "YOU ARE 90% TEXAN!<br /><img src='90.png' width='30%' /><audio src='yee.mp4' autoplay></audio>"};
+
+if (result == 100) {result2 = "Excellent! You're a TRUE TEXAN!<br /><img src='100.png' width='30%' /><audio src='yee.mp4' autoplay></audio>"};
+
+
+document.getElementById("grade2").innerHTML = result2;
+
+
+return false; // required to not refresh the page; just leave this here
+} //this ends the submit function
+
+</script>
+
+
+<span id="grade"></span>
+<br>
+<center><h4 id="grade2"></h4></center>
+</div><!-- end main div -->
+
+<div id="footer"> <!-- footer div -->
+         <p>Quiz Created by <a href="http://ErikaJeanetteJasso.com" target="_blank">Jeanette Jasso</a></p>
+</div><!-- end footer div -->
+
+</body> <!-- end body -->
+</html> <!-- end html -->
